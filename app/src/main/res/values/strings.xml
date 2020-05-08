@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Site Pyo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="copyRight">Copyright © 2019 (Group VII). All rights reserved.
+        Powered by Information Technology Department.
+    </string>
+</resources>

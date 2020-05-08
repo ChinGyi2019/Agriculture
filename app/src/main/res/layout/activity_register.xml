@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activity.RegisterActivity" android:background="@color/colorPrimary" android:padding="3sp">
+
+
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp" app:srcCompat="@drawable/verification"
+            android:id="@+id/imageView4"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.497"
+            android:layout_marginTop="40dp" app:layout_constraintTop_toTopOf="parent"
+    />
+    <LinearLayout
+            android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:padding="5dp"
+            android:id="@+id/linearLayout" app:layout_constraintHorizontal_bias="1.0"
+            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/textView5"
+            android:layout_marginBottom="39dp" app:layout_constraintBottom_toTopOf="@+id/continueBtn">
+        <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp" app:srcCompat="@drawable/myanmar" android:id="@+id/imageView3"
+                android:layout_weight="0"/>
+        <TextView
+                android:text="+95"
+                android:textAlignment="center"
+                android:layout_width="55dp"
+                android:layout_height="55dp" android:layout_weight="0"
+                android:textCursorDrawable="@drawable/color_cursor_white" android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+        <EditText
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="0997*******" android:id="@+id/phoneInputEdit"
+                android:textColorLink="@color/colorPrimary" android:textColorHighlight="@color/colorPrimaryDark"
+                android:textCursorDrawable="@color/colorWhite" android:textColor="@color/colorWhite"
+                android:cursorVisible="true"/>
+
+    </LinearLayout>
+    <Button
+            android:text="Get OTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/continueBtn" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorWhite" android:textSize="18sp" android:layout_marginBottom="276dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="1.0" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"/>
+    <TextView
+            android:text="မိမိဖုန်းနံပါတ်အားရိုက်ထည့်ပေးပါ။"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5" android:textColor="@color/colorWhite"
+            android:textSize="18sp" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="44dp" app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            app:layout_constraintHorizontal_bias="0.528" android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"/>
+
+
+</android.support.constraint.ConstraintLayout>

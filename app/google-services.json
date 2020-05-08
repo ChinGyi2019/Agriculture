@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1097510328890",
+    "firebase_url": "https://agriculture-43cb7.firebaseio.com",
+    "project_id": "agriculture-43cb7",
+    "storage_bucket": "agriculture-43cb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097510328890:android:f70b977bfe196b8a",
+        "android_client_info": {
+          "package_name": "agriculture.com.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097510328890-u9esjr019pbrsmgpm2vrhi2h7pecegsq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "agriculture.com.app",
+            "certificate_hash": "851beee1cfb727632b9efb2e14687f538b0f674e"
+          }
+        },
+        {
+          "client_id": "1097510328890-sd9fqimsh6hahav51slckisrgf2br7i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxSH--T2ObB3RFlCLacdA4DlZJ1qwcR_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097510328890-sd9fqimsh6hahav51slckisrgf2br7i5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
