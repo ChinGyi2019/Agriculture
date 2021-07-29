@@ -15,5 +15,7 @@
 <img name = "Home Screen I" src="https://github.com/ChinGyi2019/MovieApp--Android-CleanArchitecture-/blob/main/dummy/sitepyo/sitepyo33.jpg" width="200" height="400" />
   
 <img name = "Home Screen I" src="https://github.com/ChinGyi2019/MovieApp--Android-CleanArchitecture-/blob/main/dummy/sitepyo/sitepyo88.jpg" width="200" height="400" />
-v</p>
+  
+  <img name = "Home Screen I" src="https://github.com/ChinGyi2019/MovieApp--Android-CleanArchitecture-/blob/main/dummy/sitepyo/sitepyo99.jpg" width="200" height="400" />
+</p>
 
