@@ -1,5 +1,4 @@
-"# Agriculture" 
-# MovieApp--Android-CleanArchitecture-
+# Agriculture Android App" 
 <h2>Site Pyo Agriculture App</h2>
 
 <p>It's one of my student projects in recent two year ago. It's an informational and educational app in Agriculture. It includes features like how to plant a tree and show u formal way.</p>
